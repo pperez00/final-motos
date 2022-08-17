@@ -1,0 +1,8 @@
+Nombre: Pablo
+Apellido: Pérez
+Carrera: Analista de Sistemas
+Comisión: A
+
+Para la pagina de administrador
+Usuario: admin
+password: 123

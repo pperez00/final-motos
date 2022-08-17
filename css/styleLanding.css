@@ -1,0 +1,129 @@
+.sorteo {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
+    padding: 30px;
+    color: white;
+    
+    
+}
+.titulo h1{
+    margin-bottom: 40px;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: bold;    
+}
+
+.sorteo p{
+    font-size: 20px;
+}
+
+.titulo {
+    padding: 50px;
+    text-align: center;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
+    color: white;
+}
+
+.fondo {
+    background-image: url('../img/cbtwister.jpg');    
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    
+    
+}
+
+
+
+form {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
+    color: white;
+    
+}
+
+
+
+.pie {
+    background-color: #ad1717;
+    text-align: center;
+    padding: 20px;
+}
+.pie p,small{
+    color: white;
+}
+
+#fotoSpec {
+    width: 500px;
+    height: auto;
+    
+}
+
+.fondoLogin {
+    background: rgb(168,163,165);
+    background: radial-gradient(circle, rgba(168,163,165,1) 0%, rgba(124,125,129,1) 100%);
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    text-align: center;
+    background-image: linear-gradient(left, #fff, #000, #fff);
+    background-image: -webkit-linear-gradient(left, #fff, #000, #fff);
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.menuAdmin a{
+    color: black;
+    font-size: 1.2em;
+    padding: 20px;
+}
+.menuAdmin a:hover{
+    color: grey;
+    font-size: 1.5em;
+}
+
+ul{list-style:none;margin:0px;padding:0px;clear:both;}
+    ul li{margin:0px 10px;padding:0px;float:left;}
+    ul li a{display:block;text-decoration:none}
+ ul#ejm5{
+        
+        overflow:hidden;
+        padding:20px 10px
+    }
+    ul#ejm5 li a{
+        position: relative;
+        line-height:40px;
+        overflow:hidden;
+        color:#fff;
+        perspective: 1000px;
+    }
+    ul#ejm5 li a span{
+        position: relative;
+        display: inline-block;
+        padding: 0px 14px;
+        background: rgb(226, 10, 76);
+        transition: transform 0.3s ease 0s;
+        transform-origin: 50% 0px 0px;
+        transform-style: preserve-3d;
+    }
+    ul#ejm5 li a span:before{
+        position: absolute;
+        top: 100%;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        padding: 0px 14px;
+        background:  rgb(9, 224, 26);
+        content: attr(data-title);
+        transition: #000 0.3s ease 0s;
+        transform: rotateX(-90deg);
+        transform-origin: 50% 0px 0px;        
+    }
+    ul#ejm5 li a:hover span {
+        transform: rotateX(90deg) translateY(-22px);
+    }
+    ul#ejm5 li a:hover span::before {
+        background:  0% 0% rgb(9, 224, 26);
+    }
